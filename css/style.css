@@ -2519,7 +2519,7 @@ html {
   }
   
   .section.hero-image {
-    background-image: linear-gradient(rgba(5, 6, 11, .2), rgba(5, 6, 11, .2) 63%, #05060b), url("https://assets.website-files.com/646206c39bf7e78b9614fe8f/646206c39bf7e78b9614feae_hero-home-img%20(1).jpeg");
+    background-image: linear-gradient(rgba(5, 6, 11, .2), rgba(5, 6, 11, .2) 63%, #05060b), url("../assets/images/GH-4.jpg");
     background-position: 0 0, 50% 0;
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
@@ -2562,7 +2562,7 @@ html {
   }
   
   .container.interiors {
-    grid-row-gap: 150px;
+    /* grid-row-gap: 0px; */
     flex-direction: column;
     padding-top: 0;
     padding-bottom: 0;
@@ -3060,7 +3060,7 @@ html {
   }
   
   .interior-text-grid.first {
-    margin-bottom: 300px;
+    margin-bottom: 50px;
   }
   
   .interior-text-grid.last {
@@ -4529,7 +4529,7 @@ html {
     }
   
     .container.interiors {
-      grid-row-gap: 50px;
+      /* grid-row-gap: 0px; */
     }
   
     .container.listings {
@@ -4811,7 +4811,7 @@ html {
     }
   
     .section.hero-image {
-      background-image: linear-gradient(rgba(5, 6, 11, 0), rgba(5, 6, 11, .33) 75%, rgba(5, 6, 11, .94) 87%), url("https://assets.website-files.com/646206c39bf7e78b9614fe8f/646206c39bf7e78b9614feb4_house-with-green-wall-plants-front-it%201.jpg");
+      background-image: linear-gradient(rgba(5, 6, 11, 0), rgba(5, 6, 11, .33) 75%, rgba(5, 6, 11, .94) 87%), url("../assets/images/GH-3.jpg");
       background-position: 0 0, 0 0;
       background-repeat: repeat, no-repeat;
       background-size: auto, 1195px;
@@ -4831,7 +4831,6 @@ html {
     }
   
     .container.interiors {
-      grid-row-gap: 80px;
       padding-left: 20px;
       padding-right: 20px;
     }
@@ -5752,9 +5751,65 @@ html {
     font-family: Satoshi, 'sans-serif';
     text-transform: uppercase;
     border: 1px solid rgba(255, 68, 0, 0.834);
+    border-radius: 10px;
 
     &:hover {
         background-color: transparent;
         transition: all 300ms ease-out;
+    }
+  }
+
+  .rocket {
+    background-color: rgba(255, 68, 0, 0.834);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    margin-top: 10px;
+    width: 100%;
+    border: 2px solid rgba(255, 68, 0, 0.834);
+
+    &:hover {
+      background-color: transparent;
+      color: rgba(255, 68, 0, 0.834);
+      transition: all 300ms ease-out;
+    }
+  }
+
+  @media screen and (width < 600px) {
+    .unseen {
+      display: none;
+    }
+  }
+
+  .bop {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .bop h5 {
+    margin: 0;
+  }
+
+  .bop_circle {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(32, 233, 32);
+    border-radius: 50%;
+    animation: bop 800ms cubic-bezier(0.39, 0.575, 0.565, 1) infinite;
+  }
+
+  .bop_circle.inactive {
+    background-color: rgb(241, 14, 14);
+
+  }
+
+  @keyframes bop {
+    50% {
+      transform: scale(1.5);
     }
   }
