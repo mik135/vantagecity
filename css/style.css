@@ -5835,3 +5835,12 @@ html {
       transform: scale(1.5);
     }
   }
+
+  @media screen and (width < 745px) {
+    .gobig{
+      font-size: 2rem;
+    }
+    .gobig-p {
+      font-size: 1rem;
+    }
+  }
