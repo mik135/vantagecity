@@ -4600,8 +4600,8 @@ html {
     }
   
     .info-popup {
-      bottom: 37%;
-      right: -16%;
+      bottom: 50%%;
+      right: auto;
     }
   
     .welcome-text-wrapper {
