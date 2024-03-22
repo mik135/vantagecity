@@ -2830,7 +2830,7 @@ html {
   
   .welcome-text-wrapper {
     border-right: 1px solid rgba(255, 255, 255, .2);
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     padding-left: 105px;
     padding-right: 105px;
