@@ -5764,13 +5764,13 @@ html {
   }
 
   .dldInvBro {
-    background-color: rgba(255, 68, 0, 0.834);
+    background-color: #ff6e00;
     color: white;
     padding: 15px 20px;
     margin-top: 1em;
     font-family: Satoshi, 'sans-serif';
     text-transform: uppercase;
-    border: 1px solid rgba(255, 68, 0, 0.834);
+    border: 1px solid #ff6e00;
     border-radius: 10px;
 
     &:hover {
@@ -5780,17 +5780,17 @@ html {
   }
 
   .rocket {
-    background-color: rgba(255, 68, 0, 0.834);
+    background-color: #ff6e00;
     color: white;
     padding: 10px 15px;
     border-radius: 10px;
     margin-top: 10px;
     width: 100%;
-    border: 2px solid rgba(255, 68, 0, 0.834);
+    border: 2px solid #ff6e00;
 
     &:hover {
       background-color: transparent;
-      color: rgba(255, 68, 0, 0.834);
+      color: #ff6e00;
       transition: all 300ms ease-out;
     }
   }
