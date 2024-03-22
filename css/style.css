@@ -2796,8 +2796,8 @@ html {
     position: absolute;
     top: auto;
     bottom: 29%;
-    left: auto;
-    right: 10%;
+    left: 80%;
+    right: auto;
   }
   
   .hero-heading {
