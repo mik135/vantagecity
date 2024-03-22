@@ -2527,7 +2527,7 @@ html {
   .section.hero-image {
     background-image: url("../assets/images/hero.jpg");
     background-position: 0 0, 50% 0;
-    background-repeat: repeat, no-repeat;
+    background-repeat: no-repeat;
     background-size: auto, cover;
     position: relative;
     background-color: purple;
