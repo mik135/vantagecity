@@ -3060,6 +3060,8 @@ html {
     /* align-items: center; */
     justify-content: center;
     margin-top: 1em;
+    text-align: center;
+    font-size: 1.5em;
   }
   
   .interior-text-grid.first {
