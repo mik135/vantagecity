@@ -5836,6 +5836,22 @@ html {
     }
   }
 
+  .gobig {
+    font-size: 4rem; 
+    margin-bottom: .5em; 
+    color: #ff6e00; 
+    font-weight: 700;
+  }
+
+  .gobig-p {
+    font-size: 2rem; 
+    font-weight: 200; 
+    min-width: 300px; 
+    max-width: 700px; 
+    line-height: 2ch; 
+    font-family: 'Manrope', sans-serif;
+  }
+
   @media screen and (width < 745px) {
     .gobig{
       font-size: 2rem;
