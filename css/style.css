@@ -2530,8 +2530,6 @@ html {
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
     position: relative;
-    filter: blur(30px);
-    position: relative;
   }
 
   .overlay {
@@ -2541,6 +2539,7 @@ html {
     bottom: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency and color as needed */
+    filter: blur(30px);
 }
   
   .section.terms {
