@@ -2539,7 +2539,7 @@ html {
     bottom: 0;
     left: 0;
     background-color: rgba(0, 0, 0, 0.5); /* Adjust the transparency and color as needed */
-    filter: blur(30px);
+    filter: blur(50px);
 }
   
   .section.terms {
