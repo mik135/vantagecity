@@ -2530,6 +2530,7 @@ html {
     background-repeat: repeat, no-repeat;
     background-size: auto, cover;
     position: relative;
+    backdrop-filter: blur(30px);
   }
   
   .section.terms {
