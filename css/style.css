@@ -2835,6 +2835,7 @@ html {
     padding-left: 105px;
     padding-right: 105px;
     display: flex;
+    flex-direction: column;
   }
   
   .welcome-image-holder {
