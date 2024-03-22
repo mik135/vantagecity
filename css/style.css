@@ -2838,7 +2838,7 @@ html {
   
   .welcome-image-holder {
     height: 820px;
-    border-radius: 500px;
+    /* border-radius: 500px; */
     overflow: hidden;
   }
   
